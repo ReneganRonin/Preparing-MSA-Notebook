@@ -56,6 +56,10 @@ Before we start creating the medium, we sterilize first the needed materials mos
 
 # ╔═╡ 416bcbf4-7689-11eb-200c-23013800d6c9
 begin
+	petridishes = download("https://github.com/ReneganRonin/Preparing-MSA-Notebook/blob/main/petridishes.jpg")
+	stirringrod = download("https://github.com/ReneganRonin/Preparing-MSA-Notebook/blob/main/stirringrod.jpg")
+	autoclave = download("https://github.com/ReneganRonin/Preparing-MSA-Notebook/blob/main/autoclave.jpg")
+	beakers = download("https://github.com/ReneganRonin/Preparing-MSA-Notebook/blob/main/beakers.jpg")
 	petridishes = load("petridishes.jpg")
 	stirringrod = load("stirringrod.jpg")
 	autoclave = load("autoclave.jpg")
@@ -169,7 +173,10 @@ Sanitize and clean your work area thoroughly. Carefully remove the glasswares fr
 """
 
 # ╔═╡ 8ab0dd34-7698-11eb-1021-a7302e72ff24
-load("comparison.jpg")
+begin
+	comparison = download("https://github.com/ReneganRonin/Preparing-MSA-Notebook/blob/main/comparison.jpg")
+	comparison = load("comparison.jpg")
+end
 
 # ╔═╡ 9e735588-7698-11eb-2cea-a5914f28934c
 md"""
